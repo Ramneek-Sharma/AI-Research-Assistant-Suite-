@@ -1,11 +1,39 @@
-elevenlabs==2.6.0
-faiss_cpu==1.11.0
-langchain==0.3.26
-langchain_community==0.3.27
-langchain_core==0.3.68
-langchain_ollama==0.3.3
-openai_whisper==20250625
-python-dotenv==1.1.1
-sounddevice==0.5.2
-soundfile==0.13.1
-streamlit==1.46.0
+# Core Voice Assistant RAG Dependencies
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+faiss-cpu
+faster-whisper
+streamlit
+sounddevice
+soundfile
+python-dotenv
+
+# Document Processing
+PyPDF2
+pypdf
+unstructured
+
+# Enhanced Features for Stage 2
+scikit-learn
+pandas
+numpy
+networkx
+plotly
+tabula-py
+
+# Natural Language Processing
+spacy
+nltk
+textstat
+
+# Advanced Document Processing
+pdfplumber
+
+# Data Analysis & Visualization
+matplotlib
+seaborn
+
+# System Dependencies
+distro
